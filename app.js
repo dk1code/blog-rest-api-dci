@@ -13,7 +13,7 @@ const postsRoutes = require("./routes/posts");
 
 // faker function
 
-const createInitialData = require("./fakeData");
+const createInitialData = require("./seedData");
 
 // database
 

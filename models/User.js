@@ -16,6 +16,11 @@ const UserSchema = new Schema(
       required: true,
       minlength: 5,
     },
+    username: {
+      type: String,
+      required: true,
+      minlength: 5,
+    },
     email: {
       type: String,
       required: true,
@@ -27,4 +32,4 @@ const UserSchema = new Schema(
   }
 );
 
-module.exports = mongoose.model("User", UserSchema)
+module.exports = mongoose.model("User", UserSchema);
